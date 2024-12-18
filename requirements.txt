@@ -10,3 +10,6 @@ ollama
 sentence-transformers 
 langchain_huggingface 
 nltk
+flask
+pymongo
+transformers

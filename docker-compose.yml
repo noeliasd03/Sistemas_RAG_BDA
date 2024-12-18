@@ -1,11 +1,10 @@
-version: '3.1'
+version: '3.8'
 
 services:
-  my-mongodb:
-    image: mongo:latest
-    container_name: my-mongodb
+  rag:
+    build: .
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=noelia
-      - MONGO_INITDB_ROOT_PASSWORD=changeme
+
+      - MONGO_URI=mongodb+srv://noelia:cE_U%40_555xGHKe9@cluster0.0esus.mongodb.net/mydatabase
     ports:
-      - 27017:27017
+      - "5000:5000"
