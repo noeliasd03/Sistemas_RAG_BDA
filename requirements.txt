@@ -5,6 +5,7 @@ chromadb
 langchain-chroma
 langchain-ollama
 PyPDF2
+tk
 ollama
 sentence-transformers 
 langchain_huggingface 
