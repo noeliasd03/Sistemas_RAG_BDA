@@ -7,7 +7,7 @@ Este proyecto construye estos diferentes RAGs:
 3. **Crear una GUI** para el RAG número 1.
 4. **RAG dockerizado contra Mongo Atlas.**
 
-## Crear el Entorno para el Proyecto
+## Crear el Entorno para el Proyecto y clonar el repositorio
 
 Asegúrate de tener Python 3.8 instalado:   
 Creamos y activamos el entorno:
@@ -19,6 +19,11 @@ Instalamos las dependencias (requirements.txr) dentro de nuestro entorno:
 ```bash
 conda install pip
 pip install -r requirements.txt
+```
+Clonar el repositorio:
+```bash
+git clone https://github.com/noeliasd03/Sistemas_RAG_BDA.git
+cd Sistemas_RAG_BDA
 ```
 
 ### Tener el servidor funcionando
