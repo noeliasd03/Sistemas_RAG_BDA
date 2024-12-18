@@ -1,0 +1,11 @@
+requests
+beautifulsoup4 
+langchain 
+chromadb 
+langchain-chroma
+langchain-ollama
+PyPDF2
+ollama
+sentence-transformers 
+langchain_huggingface 
+nltk
